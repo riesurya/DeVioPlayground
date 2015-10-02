@@ -1,0 +1,56 @@
+.redux-main .form-table th{
+	/*display: none;*/
+}
+#redux-sub-footer i{
+	color: rgb(242, 13, 58);
+}
+.widgets-holder-wrap .sidebar-description {
+ -webkit-user-select: inherit !important; 
+-moz-user-select: inherit !important;
+-ms-user-select: inherit !important;
+user-select: inherit !important;
+}
+
+input[type=number] {
+width: 30%;
+}
+
+p.small{font-size: 85%; }
+
+.redux-container-raw{
+	text-align: center;
+}
+
+.redux-container-raw img {
+border: 2px solid rgb(47, 54, 200);
+border-radius: 7px;
+}
+
+.redux-container-sorter ul {
+width: 40%;
+}
+
+#homepage-layout_backup{
+	display: none;
+}
+
+#homepage-layout_enabled li{
+background-image: -webkit-gradient(linear,left top,left bottom,from(#32DB4E),to(#ececec));
+background-image: -webkit-linear-gradient(top,#32DB4E,#ececec);
+background-image: linear-gradient(top,#32DB4E,#ececec);
+}
+#homepage-layout_disabled li{
+background-image: -webkit-gradient(linear,left top,left bottom,from(#D81B1B),to(#ececec));
+background-image: -webkit-linear-gradient(top,#D81B1B,#ececec);
+background-image: linear-gradient(top,#D81B1B,#ececec);
+}
+
+.redux-attention {
+  background: rgb(203, 18, 18);
+  color: #fff;
+}
+
+/*OT*/
+.ot-icon-trash-o:before {
+  content: "\f014";
+}
