@@ -1,7 +1,7 @@
 # DeVioPlayground
 A fun theme framework plugin for WordPress
 
-=== DeVio Plaground Pro ===
+=== DeVio Playground Pro ===
 Contributors: riesurya 
 Tags: theme options, modular
 Requires at least: 4.x
