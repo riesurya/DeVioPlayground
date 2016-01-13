@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DeVio\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-08-08 20:22+0700\n"
-"PO-Revision-Date: 2015-08-08 20:25+0700\n"
+"POT-Creation-Date: 2015-12-28 19:45+0700\n"
+"PO-Revision-Date: 2015-12-28 19:45+0700\n"
 "Last-Translator: riesurya <riesurya@gmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -13,975 +13,380 @@ msgstr ""
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SearchPath-0: ..\n"
 
-#: ../a-class.DeVioPlaygroundPro.php:190
-#: ../class.DeVioPlayground.php:167
+#: ../class.DeVioPlaygroundPro.php:136
 msgid "themesupports primary menu"
 msgstr ""
 
-#: ../framework/lib/thirdparties/DeVio_wph_widget_class.php:1350
-msgid "All Category"
-msgstr ""
-
-#: ../framework/main/a-class.widget.DeVioPlayground_Combo_WidgetsPro.php:25
-msgid "DeVio Post Thumbs"
-msgstr ""
-
-#: ../framework/main/a-class.widget.DeVioPlayground_Combo_WidgetsPro.php:26
-msgid "Display Posts in Thumbnails Image mode"
-msgstr ""
-
-#: ../framework/main/a-class.widget.DeVioPlayground_Combo_WidgetsPro.php:35
-#: ../framework/main/a-class.widget.DeVioPlayground_Combo_WidgetsPro.php:203
-#: ../framework/main/a-class.widget.DeVioPlayground_Combo_WidgetsPro.php:423
-#: ../framework/main/a-class.widget.DeVioPlayground_Combo_WidgetsPro.php:563
-#: ../framework/main/a-class.widget.DeVioPlayground_Combo_WidgetsPro.php:700
-#: ../framework/main/a-class.widget.DeVioPlayground_Combo_WidgetsPro.php:882
-msgid "Widget Title"
-msgstr ""
-
-#: ../framework/main/a-class.widget.DeVioPlayground_Combo_WidgetsPro.php:36
-#: ../framework/main/a-class.widget.DeVioPlayground_Combo_WidgetsPro.php:204
-#: ../framework/main/a-class.widget.DeVioPlayground_Combo_WidgetsPro.php:424
-#: ../framework/main/a-class.widget.DeVioPlayground_Combo_WidgetsPro.php:564
-#: ../framework/main/a-class.widget.DeVioPlayground_Combo_WidgetsPro.php:883
-msgid "Enter the widget title - alpha-numeric characters, underscores or dashes"
-msgstr ""
-
-#: ../framework/main/a-class.widget.DeVioPlayground_Combo_WidgetsPro.php:47
-#: ../framework/main/a-class.widget.DeVioPlayground_Combo_WidgetsPro.php:223
-msgid "Select Category"
-msgstr ""
-
-#: ../framework/main/a-class.widget.DeVioPlayground_Combo_WidgetsPro.php:48
-#: ../framework/main/a-class.widget.DeVioPlayground_Combo_WidgetsPro.php:224
-msgid "Select array var."
-msgstr ""
-
-#: ../framework/main/a-class.widget.DeVioPlayground_Combo_WidgetsPro.php:58
-#: ../framework/main/a-class.widget.DeVioPlayground_Combo_WidgetsPro.php:214
-msgid "Item Number"
-msgstr ""
-
-#: ../framework/main/a-class.widget.DeVioPlayground_Combo_WidgetsPro.php:67
-msgid "Display OrderBy"
-msgstr ""
-
-#: ../framework/main/a-class.widget.DeVioPlayground_Combo_WidgetsPro.php:82
-msgid "Display Order"
-msgstr ""
-
-#: ../framework/main/a-class.widget.DeVioPlayground_Combo_WidgetsPro.php:193
-msgid "DeVio Post Combo"
-msgstr ""
-
-#: ../framework/main/a-class.widget.DeVioPlayground_Combo_WidgetsPro.php:194
-msgid "Display Post with options for thumbnails, introtext display"
-msgstr ""
-
-#: ../framework/main/a-class.widget.DeVioPlayground_Combo_WidgetsPro.php:234
-msgid "Show Thumbnail"
-msgstr ""
-
-#: ../framework/main/a-class.widget.DeVioPlayground_Combo_WidgetsPro.php:235
-msgid "Check to display post thumbnail"
-msgstr ""
-
-#: ../framework/main/a-class.widget.DeVioPlayground_Combo_WidgetsPro.php:244
-msgid "Show Introtext"
-msgstr ""
-
-#: ../framework/main/a-class.widget.DeVioPlayground_Combo_WidgetsPro.php:245
-msgid "Check to display post intro"
-msgstr ""
-
-#: ../framework/main/a-class.widget.DeVioPlayground_Combo_WidgetsPro.php:254
-msgid "Show Date"
-msgstr ""
-
-#: ../framework/main/a-class.widget.DeVioPlayground_Combo_WidgetsPro.php:255
-msgid "Check to display post date"
-msgstr ""
-
-#: ../framework/main/a-class.widget.DeVioPlayground_Combo_WidgetsPro.php:264
-msgid "Order"
-msgstr ""
-
-#: ../framework/main/a-class.widget.DeVioPlayground_Combo_WidgetsPro.php:277
-msgid "OrderBy"
-msgstr ""
-
-#: ../framework/main/a-class.widget.DeVioPlayground_Combo_WidgetsPro.php:414
-msgid "DeVio Post Categories"
-msgstr ""
-
-#: ../framework/main/a-class.widget.DeVioPlayground_Combo_WidgetsPro.php:415
-msgid "Display Post Categories List - Vertical or Horizontal"
-msgstr ""
-
-#: ../framework/main/a-class.widget.DeVioPlayground_Combo_WidgetsPro.php:434
-#: ../framework/main/a-class.widget.DeVioPlayground_Combo_WidgetsPro.php:574
-msgid "Display Mode"
-msgstr ""
-
-#: ../framework/main/a-class.widget.DeVioPlayground_Combo_WidgetsPro.php:451
-#: ../framework/main/a-class.widget.DeVioPlayground_Combo_WidgetsPro.php:589
-msgid "Order Display"
-msgstr ""
-
-#: ../framework/main/a-class.widget.DeVioPlayground_Combo_WidgetsPro.php:525
-#, php-format
-msgid "All articles in %s"
-msgstr ""
-
-#: ../framework/main/a-class.widget.DeVioPlayground_Combo_WidgetsPro.php:554
-msgid "DeVio Posts Tags"
-msgstr ""
-
-#: ../framework/main/a-class.widget.DeVioPlayground_Combo_WidgetsPro.php:555
-msgid "Posts Tags Widget by Riesurya"
-msgstr ""
-
-#: ../framework/main/a-class.widget.DeVioPlayground_Combo_WidgetsPro.php:660
-#, php-format
-msgid "All items in Posts %s"
-msgstr ""
-
-#: ../framework/main/a-class.widget.DeVioPlayground_Combo_WidgetsPro.php:690
-msgid "DeVio Pages Combo"
-msgstr ""
-
-#: ../framework/main/a-class.widget.DeVioPlayground_Combo_WidgetsPro.php:691
-msgid "Pages as Widget Featured"
-msgstr ""
-
-#: ../framework/main/a-class.widget.DeVioPlayground_Combo_WidgetsPro.php:701
-msgid "Enter the widget title."
-msgstr ""
-
-#: ../framework/main/a-class.widget.DeVioPlayground_Combo_WidgetsPro.php:704
-msgid "DeVio PagesCombo"
-msgstr ""
-
-#: ../framework/main/a-class.widget.DeVioPlayground_Combo_WidgetsPro.php:711
-msgid "Pages to display"
-msgstr ""
-
-#: ../framework/main/a-class.widget.DeVioPlayground_Combo_WidgetsPro.php:712
-msgid "Select pages to display as widget"
-msgstr ""
-
-#: ../framework/main/a-class.widget.DeVioPlayground_Combo_WidgetsPro.php:721
-msgid "Show Page Title"
-msgstr ""
-
-#: ../framework/main/a-class.widget.DeVioPlayground_Combo_WidgetsPro.php:722
-msgid "Checked to show Page Title"
-msgstr ""
-
-#: ../framework/main/a-class.widget.DeVioPlayground_Combo_WidgetsPro.php:731
-msgid "Thumbnails"
-msgstr ""
-
-#: ../framework/main/a-class.widget.DeVioPlayground_Combo_WidgetsPro.php:732
-msgid "Image taken from featured image"
-msgstr ""
-
-#: ../framework/main/a-class.widget.DeVioPlayground_Combo_WidgetsPro.php:741
-msgid "Intro Text"
-msgstr ""
-
-#: ../framework/main/a-class.widget.DeVioPlayground_Combo_WidgetsPro.php:742
-msgid "Checked to use excerpt instead full content"
-msgstr ""
-
-#: ../framework/main/a-class.widget.DeVioPlayground_Combo_WidgetsPro.php:751
-msgid "Readmore"
-msgstr ""
-
-#: ../framework/main/a-class.widget.DeVioPlayground_Combo_WidgetsPro.php:752
-msgid "Checked to use ReadMore link"
-msgstr ""
-
-#: ../framework/main/a-class.widget.DeVioPlayground_Combo_WidgetsPro.php:872
-msgid "DeVio Address Panel"
-msgstr ""
-
-#: ../framework/main/a-class.widget.DeVioPlayground_Combo_WidgetsPro.php:873
-msgid "Display Address with data taken from theme panel"
-msgstr ""
-
-#: ../framework/main/a-class.widget.DeVioPlayground_Combo_WidgetsPro.php:893
-msgid "Show Phone"
-msgstr ""
-
-#: ../framework/main/a-class.widget.DeVioPlayground_Combo_WidgetsPro.php:894
-msgid "Check to display Phone"
-msgstr ""
-
-#: ../framework/main/a-class.widget.DeVioPlayground_Combo_WidgetsPro.php:903
-msgid "Show eMail"
-msgstr ""
-
-#: ../framework/main/a-class.widget.DeVioPlayground_Combo_WidgetsPro.php:904
-msgid "Check to display eMail"
-msgstr ""
-
-#: ../framework/main/a-class.widget.DeVioPlayground_Combo_WidgetsPro.php:913
-msgid "Show Address"
-msgstr ""
-
-#: ../framework/main/a-class.widget.DeVioPlayground_Combo_WidgetsPro.php:914
-#: ../framework/main/a-class.widget.DeVioPlayground_Combo_WidgetsPro.php:924
-msgid "Check to display Address"
-msgstr ""
-
-#: ../framework/main/a-class.widget.DeVioPlayground_Combo_WidgetsPro.php:923
-msgid "Spesific Map Address"
-msgstr ""
-
-#: ../framework/main/a-class.widget.DeVioPlayground_Combo_WidgetsPro.php:933
-msgid "Map Display mode"
-msgstr ""
-
-#: ../framework/main/a-class.widget.DeVioPlayground_Combo_WidgetsPro.php:934
-msgid "Map may display directly or via textlink on lightbox"
-msgstr ""
-
-#: ../framework/main/a-class.widget.DeVioPlayground_Combo_WidgetsPro.php:946
-msgid "Map Height"
-msgstr ""
-
-#: ../framework/main/a-class.widget.DeVioPlayground_Combo_WidgetsPro.php:947
-msgid "Give spesific height for map ( in pixel )"
-msgstr ""
-
-#: ../framework/main/a-DeVioPlayground_Main_FunctionsPro.php:45
-msgid "Thumbnail"
-msgstr ""
-
-#: ../framework/main/a-DeVioPlayground_Main_FunctionsPro.php:77
-#: ../framework/main/a-DeVioPlayground_SingularLayoutPro.php:290
-#: ../framework/main/a-DeVioPlayground_SingularLayoutPro.php:340
-#: ../framework/panel/DeVioPlayground_PanelPro.php:68
-msgid "None"
-msgstr ""
-
-#: ../framework/main/a-DeVioPlayground_Main_FunctionsPro.php:274
-#: ../framework/main/DeVioPlayground_Main_Functions.php:159
-msgid "Untitled"
-msgstr ""
-
-#: ../framework/main/a-DeVioPlayground_Main_FunctionsPro.php:299
-#: ../framework/main/DeVioPlayground_Main_Functions.php:184
-msgid "Posts filed under "
-msgstr ""
-
-#: ../framework/main/a-DeVioPlayground_Main_FunctionsPro.php:334
-#: ../framework/main/DeVioPlayground_Main_Functions.php:219
-msgid "Yearly Archives : "
-msgstr ""
-
-#: ../framework/main/a-DeVioPlayground_Main_FunctionsPro.php:338
-#: ../framework/main/DeVioPlayground_Main_Functions.php:223
-msgid "Monthly Archives: "
-msgstr ""
-
-#: ../framework/main/a-DeVioPlayground_Main_FunctionsPro.php:343
-#: ../framework/main/DeVioPlayground_Main_Functions.php:228
-msgid "Daily Archives : "
-msgstr ""
-
-#: ../framework/main/a-DeVioPlayground_Main_FunctionsPro.php:383
-#: ../framework/main/a-DeVioPlayground_Main_FunctionsPro.php:1487
-#: ../framework/main/DeVioPlayground_Main_Functions.php:267
-msgid "Published In"
-msgstr ""
-
-#: ../framework/main/a-DeVioPlayground_Main_FunctionsPro.php:439
-#: ../framework/main/a-DeVioPlayground_Main_FunctionsPro.php:462
-#: ../framework/main/a-DeVioPlayground_Main_FunctionsPro.php:516
-msgid "by"
-msgstr ""
-
-#: ../framework/main/a-DeVioPlayground_Main_FunctionsPro.php:608
-#: ../framework/main/DeVioPlayground_Main_Functions.php:348
+#: ../framework/main/class.DeVioPlaygroundPro_MainHooks.php:103
 msgid "Pages:"
 msgstr ""
 
-#: ../framework/main/a-DeVioPlayground_Main_FunctionsPro.php:612
-#: ../framework/main/DeVioPlayground_Main_Functions.php:352
+#: ../framework/main/class.DeVioPlaygroundPro_MainHooks.php:107
 msgid "Page"
 msgstr ""
 
-#: ../framework/main/a-DeVioPlayground_Main_FunctionsPro.php:776
-#: ../framework/main/DeVioPlayground_Main_Functions.php:469
-#: ../framework/main/DeVioPlayground_PageTemplates.php:155
-#: ../framework/main/DeVioPlayground_PageTemplates.php:235
-msgid "Read More"
-msgstr ""
-
-#: ../framework/main/a-DeVioPlayground_Main_FunctionsPro.php:812
-#: ../framework/main/DeVioPlayground_Main_Functions.php:499
+#: ../framework/main/class.DeVioPlaygroundPro_MainHooks.php:120
 msgid "Edit"
 msgstr ""
 
-#: ../framework/main/a-DeVioPlayground_Main_FunctionsPro.php:1487
-msgid "<li class=\"previous-link\">"
-msgstr ""
-
-#: ../framework/main/a-DeVioPlayground_Main_FunctionsPro.php:1489
-msgid "<i class=\"fa fa-angle-double-left\"></i> Older"
-msgstr ""
-
-#: ../framework/main/a-DeVioPlayground_Main_FunctionsPro.php:1490
-msgid "Newer <i class=\"fa fa-angle-double-right\"></i>"
-msgstr ""
-
-#: ../framework/main/a-DeVioPlayground_Main_HooksPro.php:98
-#: ../framework/main/DeVioPlayground_Main_Hooks.php:67
+#: ../framework/main/class.DeVioPlaygroundPro_MainHooks.php:219
 msgid "Search Result for"
 msgstr ""
 
-#: ../framework/main/a-DeVioPlayground_SingularLayoutPro.php:22
-msgid "Custom Layout"
+#: ../framework/main/class.DeVioPlaygroundPro_MainHooks.php:248
+msgid "the article(s) you are looking for not found"
 msgstr ""
 
-#: ../framework/main/a-DeVioPlayground_SingularLayoutPro.php:30
-msgid "Override Content Layout"
+#: ../framework/main/class.DeVioPlaygroundPro_MainHooks.php:287
+msgid "Read More"
 msgstr ""
 
-#: ../framework/main/a-DeVioPlayground_SingularLayoutPro.php:31
-msgid "On activated will override maincontent layout setting ( from Playground Panel ) for this article spesifically"
+#: ../framework/main/class.DeVioPlaygroundPro_MainHooks.php:364
+msgid "Published In"
 msgstr ""
 
-#: ../framework/main/a-DeVioPlayground_SingularLayoutPro.php:39
-msgid "Select Layout"
-msgstr ""
-
-#: ../framework/main/a-DeVioPlayground_SingularLayoutPro.php:47
-msgid "Full Width"
-msgstr ""
-
-#: ../framework/main/a-DeVioPlayground_SingularLayoutPro.php:52
-msgid "Sidebar on Left"
-msgstr ""
-
-#: ../framework/main/a-DeVioPlayground_SingularLayoutPro.php:57
-msgid "Sidebar on Right"
-msgstr ""
-
-#: ../framework/main/a-DeVioPlayground_SingularLayoutPro.php:62
-msgid "Left and Right sidebar"
-msgstr ""
-
-#: ../framework/main/a-DeVioPlayground_SingularLayoutPro.php:67
-msgid "Dual Sidebar on Left"
-msgstr ""
-
-#: ../framework/main/a-DeVioPlayground_SingularLayoutPro.php:72
-msgid "Dual Sidebar on Right"
-msgstr ""
-
-#: ../framework/main/a-DeVioPlayground_SingularLayoutPro.php:80
-#: ../framework/panel/DeVioPlayground_Panel.php:116
-#: ../framework/panel/DeVioPlayground_PanelPro.php:371
-#: ../framework/panel/DeVioPlayground_PanelPro.php:466
-#: ../framework/panel/DeVioPlayground_PanelPro.php:549
-msgid "Left Sidebar"
-msgstr ""
-
-#: ../framework/main/a-DeVioPlayground_SingularLayoutPro.php:88
-#: ../framework/panel/DeVioPlayground_PanelPro.php:476
-#: ../framework/panel/DeVioPlayground_PanelPro.php:559
-msgid "Left Sidebar Width"
-msgstr ""
-
-#: ../framework/main/a-DeVioPlayground_SingularLayoutPro.php:95
-#: ../framework/main/a-DeVioPlayground_SingularLayoutPro.php:129
-msgid "25%"
-msgstr ""
-
-#: ../framework/main/a-DeVioPlayground_SingularLayoutPro.php:99
-#: ../framework/main/a-DeVioPlayground_SingularLayoutPro.php:133
-msgid "33%"
-msgstr ""
-
-#: ../framework/main/a-DeVioPlayground_SingularLayoutPro.php:103
-#: ../framework/main/a-DeVioPlayground_SingularLayoutPro.php:137
-msgid "42%"
-msgstr ""
-
-#: ../framework/main/a-DeVioPlayground_SingularLayoutPro.php:107
-#: ../framework/main/a-DeVioPlayground_SingularLayoutPro.php:141
-msgid "50%"
-msgstr ""
-
-#: ../framework/main/a-DeVioPlayground_SingularLayoutPro.php:114
-#: ../framework/panel/DeVioPlayground_Panel.php:126
-#: ../framework/panel/DeVioPlayground_PanelPro.php:396
-#: ../framework/panel/DeVioPlayground_PanelPro.php:491
-#: ../framework/panel/DeVioPlayground_PanelPro.php:574
-msgid "Right Sidebar"
-msgstr ""
-
-#: ../framework/main/a-DeVioPlayground_SingularLayoutPro.php:122
-#: ../framework/panel/DeVioPlayground_PanelPro.php:406
-#: ../framework/panel/DeVioPlayground_PanelPro.php:501
-#: ../framework/panel/DeVioPlayground_PanelPro.php:583
-msgid "Right Sidebar Width"
-msgstr ""
-
-#: ../framework/main/a-DeVioPlayground_SingularLayoutPro.php:162
-msgid "Custom Footer"
-msgstr ""
-
-#: ../framework/main/a-DeVioPlayground_SingularLayoutPro.php:170
-msgid "Override Footer Sidebar(s)"
-msgstr ""
-
-#: ../framework/main/a-DeVioPlayground_SingularLayoutPro.php:171
-msgid "On activated will override footer sidebar layout setting ( from Playground Panel ) for this article spesifically"
-msgstr ""
-
-#: ../framework/main/a-DeVioPlayground_SingularLayoutPro.php:179
-msgid "Select Sidebars Layout"
-msgstr ""
-
-#: ../framework/main/a-DeVioPlayground_SingularLayoutPro.php:187
-msgid "No Sidebars"
-msgstr ""
-
-#: ../framework/main/a-DeVioPlayground_SingularLayoutPro.php:191
-msgid "1 Column"
-msgstr ""
-
-#: ../framework/main/a-DeVioPlayground_SingularLayoutPro.php:195
-#: ../framework/panel/DeVioPlayground_PanelPro.php:866
-msgid "2 Columns"
-msgstr ""
-
-#: ../framework/main/a-DeVioPlayground_SingularLayoutPro.php:199
-#: ../framework/panel/DeVioPlayground_PanelPro.php:867
-msgid "3 Columns"
-msgstr ""
-
-#: ../framework/main/a-DeVioPlayground_SingularLayoutPro.php:203
-#: ../framework/panel/DeVioPlayground_PanelPro.php:868
-msgid "4 Columns"
-msgstr ""
-
-#: ../framework/main/a-DeVioPlayground_SingularLayoutPro.php:210
-#: ../framework/panel/DeVioPlayground_Panel.php:252
-#: ../framework/panel/DeVioPlayground_PanelPro.php:874
-msgid "Footer 1 Sidebar"
-msgstr ""
-
-#: ../framework/main/a-DeVioPlayground_SingularLayoutPro.php:218
-#: ../framework/panel/DeVioPlayground_Panel.php:260
-#: ../framework/panel/DeVioPlayground_PanelPro.php:883
-msgid "Footer 2 Sidebar"
-msgstr ""
-
-#: ../framework/main/a-DeVioPlayground_SingularLayoutPro.php:226
-#: ../framework/panel/DeVioPlayground_Panel.php:268
-#: ../framework/panel/DeVioPlayground_PanelPro.php:892
-msgid "Footer 3 Sidebar"
-msgstr ""
-
-#: ../framework/main/a-DeVioPlayground_SingularLayoutPro.php:234
-#: ../framework/panel/DeVioPlayground_Panel.php:276
-#: ../framework/panel/DeVioPlayground_PanelPro.php:901
-msgid "Footer 4 Sidebar"
-msgstr ""
-
-#: ../framework/main/a-DeVioPlayground_SingularLayoutPro.php:256
-msgid "Custom Thumbnail"
-msgstr ""
-
-#: ../framework/main/a-DeVioPlayground_SingularLayoutPro.php:268
-msgid "Single Mode"
-msgstr ""
-
-#: ../framework/main/a-DeVioPlayground_SingularLayoutPro.php:274
-msgid "Single Thumbnail Mode"
-msgstr ""
-
-#: ../framework/main/a-DeVioPlayground_SingularLayoutPro.php:275
-#: ../framework/main/a-DeVioPlayground_SingularLayoutPro.php:325
-msgid "On default will used Featured Image as thumbnail"
-msgstr ""
-
-#: ../framework/main/a-DeVioPlayground_SingularLayoutPro.php:298
-#: ../framework/main/a-DeVioPlayground_SingularLayoutPro.php:348
-msgid "HTML5 Audio"
-msgstr ""
-
-#: ../framework/main/a-DeVioPlayground_SingularLayoutPro.php:302
-#: ../framework/main/a-DeVioPlayground_SingularLayoutPro.php:352
-msgid "HTML5 Video"
-msgstr ""
-
-#: ../framework/main/a-DeVioPlayground_SingularLayoutPro.php:306
-#: ../framework/main/a-DeVioPlayground_SingularLayoutPro.php:356
-msgid "Custom Media"
-msgstr ""
-
-#: ../framework/main/a-DeVioPlayground_SingularLayoutPro.php:310
-#: ../framework/main/a-DeVioPlayground_SingularLayoutPro.php:360
-msgid "Images slideshow"
-msgstr ""
-
-#: ../framework/main/a-DeVioPlayground_SingularLayoutPro.php:319
-msgid "Archive Mode"
-msgstr ""
-
-#: ../framework/main/a-DeVioPlayground_SingularLayoutPro.php:324
-msgid "Archive Thumbnail Mode"
-msgstr ""
-
-#: ../framework/main/a-DeVioPlayground_SingularLayoutPro.php:369
-msgid "Thumbnail Types"
-msgstr ""
-
-#: ../framework/main/a-DeVioPlayground_SingularLayoutPro.php:377
-msgid "Audio OGG format URL"
-msgstr ""
-
-#: ../framework/main/a-DeVioPlayground_SingularLayoutPro.php:383
-msgid "Audio MP3 format URL"
-msgstr ""
-
-#: ../framework/main/a-DeVioPlayground_SingularLayoutPro.php:390
-msgid "Video MP4 format URL"
-msgstr ""
-
-#: ../framework/main/a-DeVioPlayground_SingularLayoutPro.php:396
-msgid "Video WEBM format URL"
-msgstr ""
-
-#: ../framework/main/a-DeVioPlayground_SingularLayoutPro.php:401
-msgid "Video Poster Image"
-msgstr ""
-
-#: ../framework/main/a-DeVioPlayground_SingularLayoutPro.php:411
-msgid "Paste code here ( usually in iframe tag ). see <a href=\"http://devioplayground.com/docs/postmeta\">Custom Thumbnail#media</a>"
-msgstr ""
-
-#: ../framework/main/a-DeVioPlayground_SingularLayoutPro.php:429
-msgid "Image Upload"
-msgstr ""
-
-#: ../framework/main/a-DeVioPlayground_SingularLayoutPro.php:435
-msgid "Intro"
-msgstr ""
-
-#: ../framework/main/DeVioPlayground_Main_Functions.php:269
+#: ../framework/main/class.DeVioPlaygroundPro_MainHooks.php:366
 msgid "Older"
 msgstr ""
 
-#: ../framework/main/DeVioPlayground_Main_Functions.php:271
+#: ../framework/main/class.DeVioPlaygroundPro_MainHooks.php:367
 msgid "Newer"
 msgstr ""
 
-#: ../framework/main/DeVioPlayground_PageTemplates.php:9
-msgid "Pages"
+#: ../framework/main/class.DeVioPlaygroundPro_MainHooks.php:441
+msgid "Posts filed under "
 msgstr ""
 
-#: ../framework/main/DeVioPlayground_PageTemplates.php:24
-msgid "Articles"
+#: ../framework/main/class.DeVioPlaygroundPro_MainHooks.php:476
+msgid "Yearly Archives : "
 msgstr ""
 
-#: ../framework/panel/DeVioPlayground_Panel.php:37
-#: ../framework/panel/DeVioPlayground_PanelPro.php:52
-#: ../framework/panel/DeVioPlayground_PanelPro.php:95
-msgid "Logo"
+#: ../framework/main/class.DeVioPlaygroundPro_MainHooks.php:480
+msgid "Monthly Archives: "
 msgstr ""
 
-#: ../framework/panel/DeVioPlayground_Panel.php:45
-#: ../framework/panel/DeVioPlayground_PanelPro.php:79
-msgid "Logo Image"
+#: ../framework/main/class.DeVioPlaygroundPro_MainHooks.php:485
+msgid "Daily Archives : "
 msgstr ""
 
-#: ../framework/panel/DeVioPlayground_Panel.php:46
-#: ../framework/panel/DeVioPlayground_PanelPro.php:80
-msgid "Upload media image as Logo"
+#: ../framework/main/class.DeVioPlaygroundPro_MainHooks.php:515
+msgid "Untitled"
 msgstr ""
 
-#: ../framework/panel/DeVioPlayground_Panel.php:65
-#: ../framework/panel/DeVioPlayground_PanelPro.php:146
-msgid "Icons"
+#: ../framework/main/class.DeVioPlaygroundPro_MainHooks.php:556
+msgid "Page you are looking for is not exist anymore"
 msgstr ""
 
-#: ../framework/panel/DeVioPlayground_Panel.php:72
-#: ../framework/panel/DeVioPlayground_PanelPro.php:153
-msgid "Icons display"
-msgstr ""
-
-#: ../framework/panel/DeVioPlayground_Panel.php:79
-#: ../framework/panel/DeVioPlayground_PanelPro.php:160
-msgid "Favicon"
-msgstr ""
-
-#: ../framework/panel/DeVioPlayground_Panel.php:82
-#: ../framework/panel/DeVioPlayground_PanelPro.php:163
-msgid "Ignore it if you have favicon uploaded on site root. Otherwise, just upload image with size : 16px X 16px"
-msgstr ""
-
-#: ../framework/panel/DeVioPlayground_Panel.php:97
-#: ../framework/panel/DeVioPlayground_PanelPro.php:349
-#: ../framework/panel/DeVioPlayground_PanelPro.php:449
-#: ../framework/panel/DeVioPlayground_PanelPro.php:534
+#: ../framework/panel/DeVioPlaygroundPro_Panel.php:28
 msgid "Layout"
 msgstr ""
 
-#: ../framework/panel/DeVioPlayground_Panel.php:103
-#: ../framework/panel/DeVioPlayground_PanelPro.php:355
+#: ../framework/panel/DeVioPlaygroundPro_Panel.php:40
 msgid "General Layout"
 msgstr ""
 
-#: ../framework/panel/DeVioPlayground_Panel.php:146
-#: ../framework/panel/DeVioPlayground_PanelPro.php:608
-msgid "Page 404"
-msgstr ""
-
-#: ../framework/panel/DeVioPlayground_Panel.php:159
-#: ../framework/panel/DeVioPlayground_PanelPro.php:621
-msgid "Page 404 Title"
-msgstr ""
-
-#: ../framework/panel/DeVioPlayground_Panel.php:164
-#: ../framework/panel/DeVioPlayground_PanelPro.php:626
-msgid "Page 404 Content"
-msgstr ""
-
-#: ../framework/panel/DeVioPlayground_Panel.php:185
-#: ../framework/panel/DeVioPlayground_Panel.php:187
-#: ../framework/panel/DeVioPlayground_PanelPro.php:647
-#: ../framework/panel/DeVioPlayground_PanelPro.php:651
-msgid "Social Media"
-msgstr ""
-
-#: ../framework/panel/DeVioPlayground_Panel.php:193
-#: ../framework/panel/DeVioPlayground_PanelPro.php:694
-msgid "Google+ ( full URL )"
-msgstr ""
-
-#: ../framework/panel/DeVioPlayground_Panel.php:200
-#: ../framework/panel/DeVioPlayground_PanelPro.php:701
-msgid "Twitter"
-msgstr ""
-
-#: ../framework/panel/DeVioPlayground_Panel.php:208
-#: ../framework/panel/DeVioPlayground_PanelPro.php:717
-msgid "Facebook"
-msgstr ""
-
-#: ../framework/panel/DeVioPlayground_Panel.php:216
-#: ../framework/panel/DeVioPlayground_PanelPro.php:725
-msgid "LinkedIn"
-msgstr ""
-
-#: ../framework/panel/DeVioPlayground_Panel.php:224
-#: ../framework/panel/DeVioPlayground_PanelPro.php:733
-msgid "RSS Feed"
-msgstr ""
-
-#: ../framework/panel/DeVioPlayground_Panel.php:240
-#: ../framework/panel/DeVioPlayground_PanelPro.php:848
-msgid "Footer"
-msgstr ""
-
-#: ../framework/panel/DeVioPlayground_Panel.php:242
-#: ../framework/panel/DeVioPlayground_PanelPro.php:850
-msgid "Select layout as you wish."
-msgstr ""
-
-#: ../framework/panel/DeVioPlayground_Panel.php:248
-#: ../framework/panel/DeVioPlayground_PanelPro.php:856
-msgid "Footer Widgets may selected from <a href=\"widgets.php\">Widgets admin</a>"
-msgstr ""
-
-#: ../framework/panel/DeVioPlayground_Panel.php:294
-#: ../framework/panel/DeVioPlayground_PanelPro.php:920
+#: ../framework/panel/DeVioPlaygroundPro_Panel.php:62
 msgid "Bottom"
 msgstr ""
 
-#: ../framework/panel/DeVioPlayground_Panel.php:301
-#: ../framework/panel/DeVioPlayground_PanelPro.php:927
-msgid "Feel free to show such as Copyright, Company name <strong>but never such as thing as Designed by</strong>"
+#: ../framework/panel/DeVioPlaygroundPro_Panel.php:69
+msgid "Feel free to show such as Copyright, Company name"
 msgstr ""
 
-#: ../framework/panel/DeVioPlayground_Panel.php:305
-#: ../framework/panel/DeVioPlayground_PanelPro.php:931
+#: ../framework/panel/DeVioPlaygroundPro_Panel.php:73
 msgid "Bottom Text"
 msgstr ""
 
-#: ../framework/panel/DeVioPlayground_Panel.php:306
-#: ../framework/panel/DeVioPlayground_PanelPro.php:932
+#: ../framework/panel/DeVioPlaygroundPro_Panel.php:74
 msgid "The text that will be displayed on bottom."
 msgstr ""
 
-#: ../framework/panel/DeVioPlayground_Panel.php:325
-#: ../framework/panel/DeVioPlayground_Panel.php:333
-#: ../framework/panel/DeVioPlayground_PanelPro.php:1109
-#: ../framework/panel/DeVioPlayground_PanelPro.php:1117
-msgid "Latest Themes"
-msgstr ""
-
-#: ../framework/panel/DeVioPlayground_PanelPro.php:60
-msgid "Logo display"
-msgstr ""
-
-#: ../framework/panel/DeVioPlayground_PanelPro.php:66
-msgid "Mode"
-msgstr ""
-
-#: ../framework/panel/DeVioPlayground_PanelPro.php:69
-#: ../framework/panel/DeVioPlayground_PanelPro.php:300
-msgid "Image"
-msgstr ""
-
-#: ../framework/panel/DeVioPlayground_PanelPro.php:70
-msgid "Custom"
-msgstr ""
-
-#: ../framework/panel/DeVioPlayground_PanelPro.php:88
-msgid "Logo Text"
-msgstr ""
-
-#: ../framework/panel/DeVioPlayground_PanelPro.php:118
-#: ../framework/panel/DeVioPlayground_PanelPro.php:229
-msgid "Typography option with each property can be called individually."
-msgstr ""
-
-#: ../framework/panel/DeVioPlayground_PanelPro.php:171
-msgid "Apple Icon"
-msgstr ""
-
-#: ../framework/panel/DeVioPlayground_PanelPro.php:172
-msgid "Upload media image as apple icon"
-msgstr ""
-
-#: ../framework/panel/DeVioPlayground_PanelPro.php:175
-msgid "This will create icons for <br>Apple iPhone <br>( 57px x 57px ), <br>Apple iPhone Retina Version ( 114px x 114px ), <br>Apple iPad ( 72px x 72px ) and <br>Apple iPad Retina ( 144px x 144px ). <br>Please note that for better results the image you upload should be at least <b>144px x 144px</b>."
-msgstr ""
-
-#: ../framework/panel/DeVioPlayground_PanelPro.php:195
-msgid "Fonts"
-msgstr ""
-
-#: ../framework/panel/DeVioPlayground_PanelPro.php:208
-msgid "Body"
-msgstr ""
-
-#: ../framework/panel/DeVioPlayground_PanelPro.php:242
-msgid "Heading"
-msgstr ""
-
-#: ../framework/panel/DeVioPlayground_PanelPro.php:263
-msgid "example Titles."
-msgstr ""
-
-#: ../framework/panel/DeVioPlayground_PanelPro.php:284
-#: ../framework/panel/DeVioPlayground_PanelPro.php:295
-msgid "Banner"
-msgstr ""
-
-#: ../framework/panel/DeVioPlayground_PanelPro.php:291
-msgid "Banner display may vary on each theme"
-msgstr ""
-
-#: ../framework/panel/DeVioPlayground_PanelPro.php:299
-msgid "Off"
-msgstr ""
-
-#: ../framework/panel/DeVioPlayground_PanelPro.php:301
-msgid "Slideshow"
-msgstr ""
-
-#: ../framework/panel/DeVioPlayground_PanelPro.php:311
-msgid "Banner Image"
-msgstr ""
-
-#: ../framework/panel/DeVioPlayground_PanelPro.php:312
-msgid "Upload media image as Banner"
-msgstr ""
-
-#: ../framework/panel/DeVioPlayground_PanelPro.php:316
-msgid "Please upload image size 1440px width"
-msgstr ""
-
-#: ../framework/panel/DeVioPlayground_PanelPro.php:323
-msgid "Unlimited Slideshow"
-msgstr ""
-
-#: ../framework/panel/DeVioPlayground_PanelPro.php:326
-msgid "type caption here, optional"
-msgstr ""
-
-#: ../framework/panel/DeVioPlayground_PanelPro.php:327
-msgid "Description Here, optional"
-msgstr ""
-
-#: ../framework/panel/DeVioPlayground_PanelPro.php:328
-msgid "Full URL for link, example : http://domainname.tld/target.html"
-msgstr ""
-
-#: ../framework/panel/DeVioPlayground_PanelPro.php:381
-msgid "Left Sidebar Width ?"
-msgstr ""
-
-#: ../framework/panel/DeVioPlayground_PanelPro.php:432
-msgid "Any Singular Layout"
-msgstr ""
-
-#: ../framework/panel/DeVioPlayground_PanelPro.php:433
-#: ../framework/panel/DeVioPlayground_PanelPro.php:528
-msgid "<p class=\"description\">ssssPilih layout...sesuai selera :). <br>Untuk menggunakan layout dengan pilihan sidebar, pastikan bahwa sidebar yang dipilih terdapat widget didalamnya.<br> Tampilan konten dapat berbeda tergantung theme yang digunakan</p>"
-msgstr ""
-
-#: ../framework/panel/DeVioPlayground_PanelPro.php:445
-msgid "Attention! Total Content Width = 100% - ( left sidebar width ) + ( right sidebar width ), depend on layout selected."
-msgstr ""
-
-#: ../framework/panel/DeVioPlayground_PanelPro.php:527
-msgid "Any Archive Layout"
-msgstr ""
-
-#: ../framework/panel/DeVioPlayground_PanelPro.php:663
-msgid "Sort and Order"
-msgstr ""
-
-#: ../framework/panel/DeVioPlayground_PanelPro.php:664
-msgid "Drag and drop to order display social media icons"
-msgstr ""
-
-#: ../framework/panel/DeVioPlayground_PanelPro.php:755
-msgid "Address &amp; Map"
-msgstr ""
-
-#: ../framework/panel/DeVioPlayground_PanelPro.php:762
-msgid "Address"
-msgstr ""
-
-#: ../framework/panel/DeVioPlayground_PanelPro.php:764
-msgid "<em>to make new line, use tag &lt;br&gt; </em>"
-msgstr ""
-
-#: ../framework/panel/DeVioPlayground_PanelPro.php:779
-msgid "eMail"
-msgstr ""
-
-#: ../framework/panel/DeVioPlayground_PanelPro.php:786
-msgid "Phone"
-msgstr ""
-
-#: ../framework/panel/DeVioPlayground_PanelPro.php:793
-msgid "Map URL"
-msgstr ""
-
-#: ../framework/panel/DeVioPlayground_PanelPro.php:794
-msgid "Please refer to <a href=\"https://developers.google.com/maps/documentation/embed/start\">Google Map Embed Docs</a> to get the map of choice.<br>Google Map API ( Browser ) Key will be needed !"
-msgstr ""
-
-#: ../framework/panel/DeVioPlayground_PanelPro.php:810
-msgid "Additional Code"
-msgstr ""
-
-#: ../framework/panel/DeVioPlayground_PanelPro.php:817
-msgid "Meta Header"
-msgstr ""
-
-#: ../framework/panel/DeVioPlayground_PanelPro.php:821
-msgid "As additional header code such as additional meta header"
-msgstr ""
-
-#: ../framework/panel/DeVioPlayground_PanelPro.php:828
-msgid "Analytics Code"
-msgstr ""
-
-#: ../framework/panel/DeVioPlayground_PanelPro.php:832
-msgid "As additional footer code, such as Google Analytics code"
-msgstr ""
-
-#: ../framework/panel/DeVioPlayground_PanelPro.php:860
-msgid "Footer Sidebar"
-msgstr ""
-
-#: ../framework/panel/DeVioPlayground_PanelPro.php:864
-msgid "No Sidebar"
-msgstr ""
-
-#: ../framework/panel/DeVioPlayground_PanelPro.php:865
-msgid "Single Column"
-msgstr ""
-
-#: ../framework/panel/DeVioPlayground_PanelPro.php:950
+#: ../framework/panel/DeVioPlaygroundPro_Panel.php:91
 msgid "Custom CSS"
 msgstr ""
 
-#: ../framework/panel/DeVioPlayground_PanelPro.php:957
+#: ../framework/panel/DeVioPlaygroundPro_Panel.php:98
+msgid "Customized CSS."
+msgstr ""
+
+#: ../framework/panel/DeVioPlaygroundPro_Panel.php:99
 msgid "May this playground have no meet all styling you want, so freely do add custom CSS to adjust any elements to suit your need"
 msgstr ""
 
-#: ../framework/panel/DeVioPlayground_PanelPro.php:963
+#: ../framework/panel/DeVioPlaygroundPro_Panel.php:105
 msgid "CSS Code"
 msgstr ""
 
-#: ../framework/panel/DeVioPlayground_PanelPro.php:964
+#: ../framework/panel/DeVioPlaygroundPro_Panel.php:106
 msgid "Paste your CSS code here."
 msgstr ""
 
-#: ../framework/panel/DeVioPlayground_PanelPro.php:1013
-msgid "Colors"
+#: ../framework/panel/DeVioPlaygroundPro_Panel.php:124
+#: ../framework/panel/DeVioPlaygroundPro_Panel.php:134
+msgid "Custom Javascript"
 msgstr ""
 
-#: ../framework/panel/DeVioPlayground_PanelPro.php:1022
-msgid "Pattern"
+#: ../framework/panel/DeVioPlaygroundPro_Panel.php:135
+msgid "Some little javascript code line may more efficient if written directly."
 msgstr ""
 
-#: ../framework/panel/DeVioPlayground_PanelPro.php:1029
-msgid "Colors pallete"
+#: ../framework/panel/DeVioPlaygroundPro_Panel.php:141
+msgid "Javascript Code"
 msgstr ""
 
-#: ../framework/panel/DeVioPlayground_PanelPro.php:1030
-msgid "Pick the colorscheme you like"
+#: ../framework/panel/DeVioPlaygroundPro_Panel.php:148
+msgid "Type Javascript code like Google analytics, advertisement code etc"
 msgstr ""
 
-#: ../framework/panel/main_panel_config.php:24
+#: ../framework/panel/main_panel_config.php:25
 msgid "Playground"
 msgstr ""
 
-#: ../framework/panel/main_panel_config.php:136
-msgid "Documentation"
-msgstr ""
-
-#: ../framework/panel/main_panel_config.php:142
-msgid "Support"
-msgstr ""
-
-#: ../framework/panel/main_panel_config.php:148
-msgid "Extensions"
-msgstr ""
-
-#: ../framework/panel/main_panel_config.php:186
+#: ../framework/panel/main_panel_config.php:187
 msgid "<p>Freemium Only ! Wanna have the real playground? Come and See <a href=\"http://devioplayground.com/paneldemo\">DeVio Playground - Panel Demo</a></p>"
 msgstr ""
 
-#: ../framework/panel/main_panel_config.php:194
+#: ../framework/panel/main_panel_config.php:195
 msgid "Theme Information 1"
 msgstr ""
 
-#: ../framework/panel/main_panel_config.php:195
-#: ../framework/panel/main_panel_config.php:200
+#: ../framework/panel/main_panel_config.php:196
+#: ../framework/panel/main_panel_config.php:201
 msgid "<p>This is the tab content, HTML is allowed.</p>"
 msgstr ""
 
-#: ../framework/panel/main_panel_config.php:199
+#: ../framework/panel/main_panel_config.php:200
 msgid "Theme Information 2"
 msgstr ""
 
-#: ../framework/panel/main_panel_config.php:206
+#: ../framework/panel/main_panel_config.php:207
 msgid "<p>This is the sidebar content, HTML is allowed.</p>"
+msgstr ""
+
+#: ../tgm/class-tgm-plugin-activation.php:333
+#: ../tgm/dependencies.php:50
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../tgm/class-tgm-plugin-activation.php:334
+#: ../tgm/dependencies.php:51
+msgid "Install Plugins"
+msgstr ""
+
+#: ../tgm/class-tgm-plugin-activation.php:335
+#: ../tgm/dependencies.php:52
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../tgm/class-tgm-plugin-activation.php:336
+#: ../tgm/dependencies.php:53
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../tgm/class-tgm-plugin-activation.php:397
+#: ../tgm/dependencies.php:64
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../tgm/class-tgm-plugin-activation.php:398
+msgid "Return to the dashboard"
+msgstr ""
+
+#: ../tgm/class-tgm-plugin-activation.php:399
+#: ../tgm/class-tgm-plugin-activation.php:3029
+#: ../tgm/dependencies.php:65
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../tgm/class-tgm-plugin-activation.php:400
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: ../tgm/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: ../tgm/class-tgm-plugin-activation.php:402
+#, php-format
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#: ../tgm/class-tgm-plugin-activation.php:403
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../tgm/class-tgm-plugin-activation.php:404
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../tgm/class-tgm-plugin-activation.php:405
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: ../tgm/class-tgm-plugin-activation.php:2167
+msgid "Required"
+msgstr ""
+
+#: ../tgm/class-tgm-plugin-activation.php:2170
+msgid "Recommended"
+msgstr ""
+
+#: ../tgm/class-tgm-plugin-activation.php:2186
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../tgm/class-tgm-plugin-activation.php:2189
+msgid "External Source"
+msgstr ""
+
+#: ../tgm/class-tgm-plugin-activation.php:2192
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../tgm/class-tgm-plugin-activation.php:2209
+msgid "Not Installed"
+msgstr ""
+
+#: ../tgm/class-tgm-plugin-activation.php:2213
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../tgm/class-tgm-plugin-activation.php:2215
+msgid "Active"
+msgstr ""
+
+#: ../tgm/class-tgm-plugin-activation.php:2221
+msgid "Required Update not Available"
+msgstr ""
+
+#: ../tgm/class-tgm-plugin-activation.php:2224
+msgid "Requires Update"
+msgstr ""
+
+#: ../tgm/class-tgm-plugin-activation.php:2227
+msgid "Update recommended"
+msgstr ""
+
+#: ../tgm/class-tgm-plugin-activation.php:2379
+msgid "Installed version:"
+msgstr ""
+
+#: ../tgm/class-tgm-plugin-activation.php:2387
+msgid "Minimum required version:"
+msgstr ""
+
+#: ../tgm/class-tgm-plugin-activation.php:2399
+msgid "Available version:"
+msgstr ""
+
+#: ../tgm/class-tgm-plugin-activation.php:2422
+#, php-format
+msgid "No plugins to install, update or activate. <a href=\"%1$s\">Return to the Dashboard</a>"
+msgstr ""
+
+#: ../tgm/class-tgm-plugin-activation.php:2436
+msgid "Plugin"
+msgstr ""
+
+#: ../tgm/class-tgm-plugin-activation.php:2437
+msgid "Source"
+msgstr ""
+
+#: ../tgm/class-tgm-plugin-activation.php:2438
+msgid "Type"
+msgstr ""
+
+#: ../tgm/class-tgm-plugin-activation.php:2442
+msgid "Version"
+msgstr ""
+
+#: ../tgm/class-tgm-plugin-activation.php:2443
+msgid "Status"
+msgstr ""
+
+#: ../tgm/class-tgm-plugin-activation.php:2603
+msgid "Install"
+msgstr ""
+
+#: ../tgm/class-tgm-plugin-activation.php:2609
+msgid "Update"
+msgstr ""
+
+#: ../tgm/class-tgm-plugin-activation.php:2612
+msgid "Activate"
+msgstr ""
+
+#: ../tgm/class-tgm-plugin-activation.php:2643
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: ../tgm/class-tgm-plugin-activation.php:2645
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: ../tgm/class-tgm-plugin-activation.php:2681
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: ../tgm/class-tgm-plugin-activation.php:2683
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: ../tgm/class-tgm-plugin-activation.php:3028
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../tgm/class-tgm-plugin-activation.php:3362
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../tgm/class-tgm-plugin-activation.php:3364
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../tgm/class-tgm-plugin-activation.php:3365
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../tgm/class-tgm-plugin-activation.php:3369
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: ../tgm/class-tgm-plugin-activation.php:3370
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../tgm/class-tgm-plugin-activation.php:3371
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../tgm/class-tgm-plugin-activation.php:3372
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../tgm/class-tgm-plugin-activation.php:3375
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: ../tgm/class-tgm-plugin-activation.php:3377
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../tgm/class-tgm-plugin-activation.php:3378
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../tgm/dependencies.php:66
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
 msgstr ""
 

@@ -1,0 +1,3 @@
+updated using ReduX API - affected  : panel config
+change hook naming : 
+	prefix/context/location/spesific_1/spesific_2/do_hook
