@@ -3,7 +3,7 @@
   @copyright Copyright (C) 2011 - forever DeVio Multimedia
   Made with 100% love and hopes for my beloved daughters Delfia Nur Anrianti Putri and Violina Melody Ramadhani, where ever you are, Papa Love U
   Theme_Author : Muhammad Anrie Ibrahim - http://devioplayground.com
-  Location : framework/main/class.DeVioPlayground_Layout.php
+  Location : framework/main/class.DeVioPlaygroundro_Footer.php
 **/
 class DeVioPlaygroundPro_Footer
 {
