@@ -5,8 +5,8 @@ A fun theme framework plugin for WordPress
 Contributors: riesurya 
 Tags: theme options, modular
 Requires at least: 4.x
-Tested up to: 4.4.1
-Stable tag: 1.0.0
+Tested up to: 4.6.1
+Stable tag: 1.1.0
 
 more than just Theme Framework, it's Fun Framework. Modular and hooks applied.
 This plugin will give new sensation about what is WordPress Theme Framework. 
@@ -32,3 +32,7 @@ FAQ list here ( incoming )
 
 == Changelog ==
 1.0.0 : First Public Release
+
+1.0.1 : Fixed template controls for extended mode
+
+1.1.0 : make it simple. Theme developer will be more have fun to extend without restrictions ( i hope so :D )
