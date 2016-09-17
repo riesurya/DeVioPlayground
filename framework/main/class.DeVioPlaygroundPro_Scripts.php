@@ -1,11 +1,11 @@
 <?php
 /**
-  	@copyright Copyright (C) 2011-2014 Devio Multimedia. 
-  	Made with 100% love and hopes for my beloved daughters Delfia Nur Anrianti Putri and Violina Melody Ramadhani, where ever you are, Papa Love U
-  	Author : Muhammad Anrie Ibrahim
-  	Author URI : http://deviolayground.com
-  	SubPackage: Singular Loop
-    Location : framework/main/class.DeVioPlaygroundro_Scripts.php
+  @copyright Copyright (C) 2011-2014 Devio Multimedia. 
+  Made with 100% love and hopes for my beloved daughters Delfia Nur Anrianti Putri and Violina Melody Ramadhani, where ever you are, Papa Love U
+  Author : Muhammad Anrie Ibrahim
+  Author URI : http://deviolayground.com
+  SubPackage: Singular Loop
+   Location : framework/main/class.DeVioPlaygroundro_Scripts.php
 **/
 
 // Exit if accessed directly
