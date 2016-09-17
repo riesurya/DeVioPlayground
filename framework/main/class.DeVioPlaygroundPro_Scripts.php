@@ -5,7 +5,7 @@
   	Author : Muhammad Anrie Ibrahim
   	Author URI : http://deviolayground.com
   	SubPackage: Singular Loop
-    Location : framework/main/class.DeVioPlayground_SingularLoop.php
+    Location : framework/main/class.DeVioPlaygroundro_Scripts.php
 **/
 
 // Exit if accessed directly
