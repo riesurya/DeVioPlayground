@@ -1,11 +1,10 @@
 <?php
 /*
 Plugin Name: DeVio Playground Pro
-Description: More than just Theme Framework, this is Playground. Made with love and dry tears for my beloved daughters, Delfia and Violina ( whereever you are, Papa still love u, miss u my little angels )
-Author: Riesurya
-Author URI: http://riesurya.com/
-Plugin URI: http://devioplayground.com/plugins/devio-playground
-Version: 1.0.1
+Made with 100% love and hopes for my beloved daughters Delfia Nur Anrianti Putri and Violina Melody Ramadhani, where ever you are, Papa Love U
+Author : Muhammad Anrie Ibrahim
+Author URI : http://deviolayground.com
+Version: 1.1.0
 */
 // Exit if accessed directly
 if( ! defined( 'ABSPATH' ) ) {
@@ -19,6 +18,18 @@ if ( ! defined( 'DEVIO_PLUGIN_URL' ) ){
     $playground_assets_url = str_replace( 'http:', '', plugin_dir_url( __FILE__ ) );
     $playground_assets_url = str_replace( 'https:', '', $playground_assets_url );
     define( 'DEVIO_PLUGIN_URL', $playground_assets_url );
+}
+    
+if ( ! defined( 'DEVIO_THISTHEME_URL' ) ){
+    $theme_assets_url = str_replace( 'http:', '', get_template_directory_uri() );
+    $theme_assets_url = str_replace( 'https:', '', $theme_assets_url );
+    define( 'DEVIO_THISTHEME_URL', $theme_assets_url );
+}
+	
+if ( ! defined( 'DEVIO_THISTHEMECHILD_URL' ) ){
+    $themechild_assets_url = str_replace( 'http:', '', get_stylesheet_directory_uri() );
+    $themechild_assets_url = str_replace( 'https:', '', $themechild_assets_url );
+    define( 'DEVIO_THISTHEMECHILD_URL', $themechild_assets_url );
 }
 
 //Load dependency plugin first or fatal error!
