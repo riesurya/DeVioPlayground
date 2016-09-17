@@ -1,11 +1,12 @@
 <?php
 /**
   @copyright Copyright (C) 2011 - forever DeVio Multimedia
-  Made with 100% love for my beloved daughters Delfia and Violina, where ever you are, Papa Love U
-  Theme_Author : Anrie 'Riesurya' - http://riesurya.com
-  Any questions? Do not hesitate to contact me : http://riesurya.com/contact/
-  Web Service version
-  SubPackage: Panel Functions
+  Made with 100% love and hopes for my beloved daughters Delfia Nur Anrianti Putri and Violina Melody Ramadhani, where ever you are, Papa Love U
+  Author : Muhammad Anrie Ibrahim
+  Author URI : http://deviolayground.com
+  SubPackage: Singular Loop
+   Location : framework/panel/DeVioPlaygroundro_Panel.php
+  SubPackage: Panel Functions - sample
 **/
 
 // Exit if accessed directly
@@ -18,8 +19,6 @@ global $opt_name;
 add_filter( 'redux/options/'. $opt_name .'/sections', 'devio_panel_customicons', 10 );
 add_filter( 'redux/options/'. $opt_name .'/sections', 'devio_panel_layout_general', 20 );
 add_filter( 'redux/options/'. $opt_name .'/sections', 'devio_panel_bottom', 51 );
-add_filter( 'redux/options/'. $opt_name .'/sections', 'devio_panel_customcss', 61 );
-add_filter( 'redux/options/'. $opt_name .'/sections', 'devio_panel_customjs', 61 );
 
 //Prior 70 - Custom css
 function devio_panel_customicons( $sections ) 
@@ -105,76 +104,5 @@ function devio_panel_bottom( $sections )
 
   $sections[] = $section;
 
-  return $sections;
-}
-
-//Prior 70 - Custom css
-function devio_panel_customcss( $sections ) 
-{
-  $section = array(
-    'title'     => __( 'Custom CSS', 'devio-playground' ),
-    'icon'      => 'fa fa-code',
-  );
-
-  $fields[] = array(
-    'id'    => 'css_custom_info',
-    'type'  => 'info',
-    'title' => __( 'Customized CSS.', 'devio-playground' ),
-    'desc'  => __( 'May this playground have no meet all styling you want, so freely do add custom CSS to adjust any elements to suit your need', 'devio-playground' ),
-  );
-
-  $fields[] = array(
-    'id'        => 'css_custom',
-    'type'      => 'ace_editor',
-    'title'     => __( 'CSS Code', 'devio-playground'),
-    'subtitle'  => __( 'Paste your CSS code here.', 'devio-playground'),
-    'mode'      => 'css',
-    'theme'     => 'monokai',
-    'compiler'  => true,
-    'default'   => "#header{\nmargin: 0 auto;\n}"
-  );
-
-  $section['fields'] = $fields;
-
-  $sections[] = $section;
-  
-  return $sections;
-}
-
-//custom js - 71
-function devio_panel_customjs( $sections ) 
-{
-  $section = array(
-    'title'   => __( 'Custom Javascript', 'devio-playground' ),
-    'icon'    => 'fa fa-bug',
-    'id'      => 'customjs_el',
-  );
-
-  $fields[] = array(
-    'id'    => 'js_custom_info',
-    'type'  => 'info',
-    'style' => 'success',
-    'icon'  => 'el el-info-circle',
-    'title' => __( 'Custom Javascript', 'devio-playground' ),
-    'desc'  => __( 'Some little javascript code line may more efficient if written directly.', 'devio-playground' )
-  );
-
-  $fields[] = array(
-    'id'        => 'js_custom',
-    'type'      => 'ace_editor',
-    'title'     => __( 'Javascript Code', 'devio-playground' ),
-    'mode'      => 'javascript',
-    'theme'     => 'chrome',
-    'default'   => "jQuery(document).ready(function(){\n\n});",
-    'hint'        => array(
-        'title'     => 'Javascript Code',
-        'content'   => __( 'Type Javascript code like Google analytics, advertisement code etc','devio-playground' ),
-              )
-  );
-
-  $section['fields'] = $fields;
-
-  $sections[] = $section;
-  
   return $sections;
 }
