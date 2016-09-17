@@ -1,9 +1,9 @@
 <?php
 /**
   @copyright Copyright (C) 2011 - forever DeVio Multimedia 
-  Made with love, wishes, and dry tears for my beloved daughters Delfia and Violina, where ever you are, Papa Love U
-  Author : Anrie 'Riesurya'
-  Author URI : http://riesurya.com
+  Made with 100% love and hopes for my beloved daughters Delfia Nur Anrianti Putri and Violina Melody Ramadhani, where ever you are, Papa Love U
+  Author : Muhammad Anrie Ibrahim
+  Author URI : http://deviolayground.com
   Playground Main Control
 **/
 // Exit if accessed directly
@@ -42,7 +42,7 @@ class DeVioPlaygroundPro
 	public static $version = "2.0";
 
 	private function __construct()
-    {
+  {
         $this->plugin_path = plugin_dir_path( __FILE__ );
         $this->plugin_url  = plugin_dir_url( __FILE__ );
         
@@ -57,11 +57,35 @@ class DeVioPlaygroundPro
      */
     public function includes() 
     {
-  		//Auto Regenerate Thumbnails
-  		require_once( $this->plugin_path . 'framework/lib/thirdparties/otf_regen_thumbs.php');
-      // require $this->plugin_path . 'framework/main/class.DeVioPlaygroundPro_MainHooks.php';
+      //the MainLayout
+      if ( !class_exists( 'DeVioPlaygroundPro_Layout' ) ):
+        require $this->plugin_path . 'framework/main/class.DeVioPlaygroundPro_Layout.php';
+      endif;
+
+      //Modular hooks
+      if ( !class_exists( 'DeVioPlaygroundPro_ModularHooks' ) ):
+        require $this->plugin_path . 'framework/main/class.DeVioPlaygroundPro_ModularHooks.php';      
+      endif;
+      
+      //Scripts
+      if ( !class_exists( 'DeVioPlaygroundPro_Scripts' ) ):
+        require $this->plugin_path . 'framework/main/class.DeVioPlaygroundPro_Scripts.php';
+      endif; 
+
+      //the Footer
+      if ( !class_exists( 'DeVioPlaygroundPro_Footer' ) ):
+        require $this->plugin_path . 'framework/main/class.DeVioPlaygroundPro_Footer.php';
+      endif; 
+      
+      //Additional Functions Play
+      if ( file_exists( $this->plugin_path . 'framework/main/DeVioPlaygroundPro_Main_Functions.php' )):
+        require $this->plugin_path . 'framework/main/DeVioPlaygroundPro_Main_Functions.php';
+      endif;
+
+      //Play the main hooks
+      require $this->plugin_path . 'framework/main/class.DeVioPlaygroundPro_MainHooks.php';
     }
-    
+
     /**
      * Run action and filter hooks
      *
@@ -71,11 +95,12 @@ class DeVioPlaygroundPro
      */
     private function hooks()
     {
-    	add_action( 'plugins_loaded',           array( $this, 'devio_load_textdomain' ) );
-   		add_action( 'after_setup_theme', 		array( $this, 'devio_after_setup_theme' ) );
-    	add_action( 'wp_head', 					array( $this, 'devio_meta_header' ), 5 );
-    	add_action( 'wp_footer', 				array( $this, 'devio_footer_notice' ), 1000 );
-		  add_action( 'redux/loaded', 			array( $this, 'devio_redux_removeDemoModeLink') );
+    	add_action( 'wp_head',                       array( $this, 'devio_meta_header' ), 5 );
+      add_action( 'plugins_loaded',             array( $this, 'devio_load_textdomain' ) );
+      add_action( 'after_setup_theme',      array( $this, 'devio_after_setup_theme' ) );
+   		add_action( 'admin_enqueue_scripts', 	array( $this, 'devio_admin_css' ) );
+		  add_action( 'redux/loaded', 			       array( $this, 'devio_redux_removeDemoModeLink') );
+      add_action( 'wp_footer',                     array( $this, 'devio_footer_notice' ), 1000 );
     }
 
 	/**
@@ -84,71 +109,37 @@ class DeVioPlaygroundPro
 	 */
     function devio_after_setup_theme()
     {
+  		//Play with Main Panel - load if theme support
+  			//load the config or welcome to blank page on Panel Options :D
+      if ( current_theme_supports( 'devio-playground-panel' ) ):
+      require( $this->plugin_path . 'framework/panel/main_panel_config.php' );
 
-    //Play the main hooks
-    require $this->plugin_path . 'framework/main/class.DeVioPlaygroundPro_MainHooks.php';
+  			if ( file_exists( $this->plugin_path . 'framework/panel/DeVioPlaygroundPro_Panel.php' )):
+  		   		require( $this->plugin_path . 'framework/panel/DeVioPlaygroundPro_Panel.php' );
+  		  endif;
+  		  locate_template( array( 'lib/panel/DeVioPlayground_Theme_Panel.php' ), true, true );
+  		endif;
 
-		//Play with Main Panel - load if theme support devio_playground_panel		
-		if ( current_theme_supports( 'devio_playground_panel' ) ):
-			//load the config or welcome to blank page on Panel Options :D
-    	require( $this->plugin_path . 'framework/panel/main_panel_config.php' );
+  		//thirdparties
+  	  // require_once $this->plugin_path . 'framework/lib/thirdparties/template-modules.php';
+  		require_once $this->plugin_path . 'framework/lib/thirdparties/tha-theme-hooks.php';
 
-			if ( file_exists( $this->plugin_path . 'framework/panel/DeVioPlaygroundPro_Panel.php' )):
-		   		require( $this->plugin_path . 'framework/panel/DeVioPlaygroundPro_Panel.php' );
-		  endif;
-		  locate_template( array( 'lib/panel/DeVioPlayground_Theme_Panel.php' ), true, true );
-		endif;
+  		//Theme Functionalities
+  		locate_template( array( 'lib/main/DeVioPlayground_Theme_Functions.php' ), true, true );
 
-    //Playing the Layout
-		if ( !class_exists( 'DeVioPlaygroundPro_Layout' ) ):
- 			require $this->plugin_path . 'framework/main/class.DeVioPlaygroundPro_Layout.php';
- 		endif;
- 		locate_template( array( 'lib/main/class.ExtendDeVioPlaygroundPro_Layout.php' ), true, true );
+  		//safely( not overriden on updates ) via theme ( parent and or child )
+      locate_template( array( 'lib/main/DeVioPlayground_Theme_Override.php' ), true, true );
 
-		//Additional Functions Play
-	  if ( file_exists( $this->plugin_path . 'framework/main/DeVioPlaygroundPro_Main_Functions.php' )):
-	   	require $this->plugin_path . 'framework/main/DeVioPlaygroundPro_Main_Functions.php';
-		endif;
+  		//Register Menu - formality
+  		register_nav_menus( array(
+  		      'primary'   => __( 'themesupports primary menu', 'devio-playground' ),
+  		  ) );
 
-    //Singular Loop
-    if ( !class_exists( 'DeVioPlaygroundPro_SingularLoop' ) ):
-      require $this->plugin_path . 'framework/main/class.DeVioPlaygroundPro_SingularLoop.php';
-    endif;
-    locate_template( array( 'lib/main/class.ExtendDeVioPlaygroundPro_SingularLoop.php' ), true, true );
+  		add_filter('the_content', 'do_shortcode', 11); // From shortcodes.php
+  		add_filter('widget_text', 'do_shortcode');
 
-    //Play with Footer Area
- 		if ( !class_exists( 'DeVioPlaygroundPro_FooterArea' ) ):
- 			require $this->plugin_path . 'framework/main/class.DeVioPlaygroundPro_FooterArea.php';
- 		endif;
- 		locate_template( array( 'lib/main/class.ExtendDeVioPlaygroundPro_FooterArea.php' ), true, true );
-
-    //Modular hooks
-    if ( !class_exists( 'DeVioPlaygroundPro_ModularHooks' ) ):
-      require $this->plugin_path . 'framework/main/class.DeVioPlaygroundPro_ModularHooks.php';      
-    endif;
-    locate_template( array( 'lib/main/class.ExtendDeVioPlaygroundPro_ModularHooks.php' ), true, true );
-
-		//thirdparties
-	   	// require_once $this->plugin_path . 'framework/lib/thirdparties/template-modules.php';
-		require_once $this->plugin_path . 'framework/lib/thirdparties/tha-theme-hooks.php';
-
-		//Display CustomFrontEnd via Theme 
-		locate_template( array( 'lib/main/DeVioPlayground_Theme_Functions.php' ), true, true );
-
-		//Global Override ( include Hooks Filter and Action override ) - safely( not overriden on updates ) via theme ( parent and or child )
-		locate_template( array( 'lib/override/DeVioPlayground_Theme_Override.php' ), true, true ); //for hooks
-
-		//Register Menu - formality
-		register_nav_menus( array(
-		      'primary'   => __( 'themesupports primary menu', 'devio-playground' ),
-		  ) );
-
-		add_filter('the_content', 'do_shortcode', 11); // From shortcodes.php
-		add_filter('widget_text', 'do_shortcode');
-
-		//remove wp gallery style
-		add_filter( 'use_default_gallery_style', '__return_false' );
-
+  		//remove wp gallery style
+  		add_filter( 'use_default_gallery_style', '__return_false' );
     }
 
 	/**
@@ -160,7 +151,7 @@ class DeVioPlaygroundPro
         // global $version;
         $ct = wp_get_theme();
         $meta = "\t".'<meta name="generator" content="DeVio Playground - Fun Theme Framework for Delfia and Violina" />' . "\n";
-        $meta .= "\t".'<meta name="playground-author" content="Riesurya - hello at riesurya dot com " />' . "\n";
+        $meta .= "\t".'<meta name="playground-author" content="Muhammad Anrie Ibrahim - hello at riesurya dot com " />' . "\n";
         $meta .= "\t".'<meta name="theme-version" content="' . $ct->get( 'Name' ) . ' ::v' . $ct->get( 'Version' ). '" />' . "\n";
         echo $meta;
     }
@@ -177,7 +168,7 @@ class DeVioPlaygroundPro
     //just a notice
     function devio_footer_notice()
     {
-    	echo '<!-- This website is powered by DeVioPlayground - Fun Theme Framework for Delfia and Violina - more fun at http://devioplayground.com -->';
+    	echo '<!-- This website is powered by DeVioPlayground - Fun Theme Framework for my beloved daughters Delfia Nur Anrianti Putri and Violina Melody Ramadhani - papa love you : hello@riesurya.com -->';
     }
 
 	//Main
@@ -206,21 +197,16 @@ class DeVioPlaygroundPro
 		load_plugin_textdomain( $textdomain, false, $this->plugin_path . '/languages' );
 	}
 
+  function devio_admin_css()
+  {
+    global $pagenow;
+    if ( is_admin() && $pagenow == 'admin.php')
+    // if ( is_admin() ) :
+    // wp_enqueue_script( 'devio_admin', DEVIO_PLUGIN_URL . 'assets/admin/js/devio-admin.js');
+    wp_enqueue_style( 'devio_admin', DEVIO_PLUGIN_URL  . 'assets/admin/css/devio-admin.css', false, null );
+    // endif;
+  }
+
 }//eof class
 
 endif;
-
-// Get post meta
-// modification from MetaBox plugins by Rilwis
-function devio_post_meta( $key, $args = array(), $post_id = null )
-{
-  $post_id = empty( $post_id ) ? get_the_ID() : $post_id;
-
-  $args = wp_parse_args( $args, array(
-    'type' => 'text',
-  ) );
-
-  $meta = get_post_meta( $post_id, $key, $args );
-
-  return apply_filters( 'devio_post_meta', $meta, $key, $args, $post_id );
-}
