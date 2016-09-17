@@ -5,7 +5,7 @@
   Author : Muhammad Anrie Ibrahim
   Author URI : http://deviolayground.com
   SubPackage: Modular hooks
-  Location : framework/main/class.DeVioPlayground_ModularHooks.php
+  Location : framework/main/class.DeVioPlaygroundPro_ModularHooks.php
  */
 // Exit if accessed directly
 if ( !defined( 'ABSPATH' ) ) {
