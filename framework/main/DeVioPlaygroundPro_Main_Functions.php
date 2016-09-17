@@ -6,7 +6,7 @@
   Author URI : http://deviolayground.com
   Contains Libraries
   SubPackage: FrontEnd Control
-  Location : framework/main/DeVioPlayground_Main_Functions.php
+  Location : framework/main/DeVioPlaygroundPro_Main_Functions.php
 **/
 
 // Exit if accessed directly
