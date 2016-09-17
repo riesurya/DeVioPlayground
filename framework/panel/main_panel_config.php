@@ -54,7 +54,7 @@
         // Show the time the page took to load, etc
         'update_notice'        => false,
         // If dev_mode is enabled, will notify developer of updated versions available in the GitHub Repo
-        'customizer'           => false,
+        'customizer'           => true,
         // Enable basic customizer support
         //'open_expanded'     => true,                    // Allow you to start the panel in an expanded way initially.
         //'disable_save_warn' => true,                    // Disable the save warning when a user changes a field
@@ -130,62 +130,15 @@
         )
     );
 
-    // ADMIN BAR LINKS -> Setup custom links in the admin bar menu as external items.
-    // $args['admin_bar_links'][] = array(
-    //     'id'    => 'redux-docs',
-    //     'href'  => 'http://docs.reduxframework.com/',
-    //     'title' => __( 'Documentation', 'devio-playground' ),
-    // );
-
-    // $args['admin_bar_links'][] = array(
-    //     //'id'    => 'redux-support',
-    //     'href'  => 'https://github.com/ReduxFramework/redux-framework/issues',
-    //     'title' => __( 'Support', 'devio-playground' ),
-    // );
-
-    // $args['admin_bar_links'][] = array(
-    //     'id'    => 'redux-extensions',
-    //     'href'  => 'reduxframework.com/extensions',
-    //     'title' => __( 'Extensions', 'devio-playground' ),
-    // );
-
-    // SOCIAL ICONS -> Setup custom links in the footer for quick links in your panel footer icons.
-    // $args['share_icons'][] = array(
-    //     'url'   => 'https://github.com/riesurya/DeVioPlayground',
-    //     'title' => 'Visit me on GitHub',
-    //     'icon'  => 'el el-github'
-    //     //'img'   => '', // You can use icon OR img. IMG needs to be a full URL.
-    // );
-    // $args['share_icons'][] = array(
-    //     'url'   => 'https://www.facebook.com/riesurya',
-    //     'title' => 'my Facebook',
-    //     'icon'  => 'el el-facebook'
-    // );
-    // $args['share_icons'][] = array(
-    //     'url'   => 'http://twitter.com/reduxframework',
-    //     'title' => 'Follow us on Twitter',
-    //     'icon'  => 'el el-twitter'
-    // );
-    // $args['share_icons'][] = array(
-    //     'url'   => 'http://www.linkedin.com/company/redux-framework',
-    //     'title' => 'Find us on LinkedIn',
-    //     'icon'  => 'el el-linkedin'
-    // );
-
     // Panel Intro text -> before the form
     if ( ! isset( $args['global_variable'] ) || $args['global_variable'] !== false ) {
         if ( ! empty( $args['global_variable'] ) ) {
             $v = $args['global_variable'];
         } else {
             $v = str_replace( '-', '_', $args['opt_name'] );
-        }
-
-        
+        }        
     } 
     
-    if ( !( plugin_dir_path( __FILE__ ) . 'framework/main/DeVioPlayground_PanelPro.php' )){
-    $args['intro_text'] = sprintf( __( '<p>Freemium Only ! Wanna have the real playground? Come and See <a href="http://devioplayground.com/paneldemo">DeVio Playground - Panel Demo</a></p>', 'devio-playground' ), $v );
-    }
 
     Redux::setArgs( $opt_name, $args );
 
